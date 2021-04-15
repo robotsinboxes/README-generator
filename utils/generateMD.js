@@ -51,7 +51,7 @@ function generateMD (data) {
     return `
 # ${data.projectTitle}
 
-## Project Description
+## **Project Description**
 ${data.projectDesc}
 
 [![License: ${data.license}](${renderLicenseBadge(license)})](${renderLicenseLink(licenseToLowercase)})
@@ -66,16 +66,16 @@ ${data.projectDesc}
 * [Questions](#questions)
 
 
-### Contributing
+### **Contributing**
 ${data.contributing}
 
-### Testing
+### **Testing**
 ${data.testing}
 
-### Questions
+### **Questions**
 Github Username: *${data.githubUserName}*
 
-For additional information, please reach out to me at ${data.email}
+For additional information, please reach out to me at *${data.email}*
 `
 }
 
