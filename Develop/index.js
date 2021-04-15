@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMD = require('./generateMD');
+const generateMD = require('./utils/generateMD');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -44,7 +44,7 @@ const questions = [
     {
     type: 'input',
     message: 'What command is needed to run tests: ',
-    name: 'tests'
+    name: 'testing'
     }, 
     {
     type: 'input',
@@ -62,7 +62,8 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(fileName);
     console.log(data);
-    fs.writeFile(fileName, generateMD(data), (err) => {
+    var data = generateMD(data);
+    fs.writeFile(fileName, data, (err) => {
         err ? console.error(err) : console.log('You created a README!')
     })
 }
@@ -73,7 +74,7 @@ function init() {
     .prompt(questions)
     .then((res) => {
         writeToFile('README.md', res)
-    })
+    });
 }
 
 // Function call to initialize app
