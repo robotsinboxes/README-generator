@@ -66,14 +66,28 @@ ${data.projectDesc}
 * [Questions](#questions)
 
 
+### **Installation**
+${data.installation}
+
+
+### **Usage**
+${data.usage}
+
+
+### **License**
+${data.license}
+
+
 ### **Contributing**
 ${data.contributing}
+
 
 ### **Testing**
 ${data.testing}
 
-### **Questions**
-Github Username: *${data.githubUserName}*
+
+### **Questions?**
+Github Username: _**${data.githubUserName}**_
 
 For additional information, please reach out to me at *${data.email}*
 `

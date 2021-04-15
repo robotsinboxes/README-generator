@@ -1,7 +1,7 @@
 
-# README Generator
+# README.md Generator
 
-## Project Description
+## **Project Description**
 Quickly build a professional looking README file just by answering a few questions!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](undefined)
@@ -16,13 +16,27 @@ Quickly build a professional looking README file just by answering a few questio
 * [Questions](#questions)
 
 
-### Contributing
+### **Installation**
+Be sure to install all necessary dependencies
+
+
+### **Usage**
+Have fun!
+
+
+### **License**
+MIT
+
+
+### **Contributing**
 Go for it!
 
-### Testing
-'npm run test'
 
-### Questions
-Github Username: *robotsinboxes*
+### **Testing**
+'npm run test
 
-For additional information, please reach out to me at robotsinboxes@gmail.com
+
+### **Questions**
+Github Username: *_robotsinboxes_*
+
+For additional information, please reach out to me at *robotsinboxes@gmail.com*
