@@ -1,0 +1,23 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "## What about this?     ## Project Description     sdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robotsinboxes/README.md-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robotsinboxes/README.md-generator/issues"
+  },
+  "homepage": "https://github.com/robotsinboxes/README.md-generator#readme"
+}

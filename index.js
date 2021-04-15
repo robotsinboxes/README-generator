@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMD = require('./utils/generateMD');
+const generateMD = require('./utils/generateMD.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -72,8 +72,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
     .prompt(questions)
-    .then((res) => {
-        writeToFile('README.md', res)
+    .then((data) => {
+        writeToFile('README.md', data)
     });
 }
 

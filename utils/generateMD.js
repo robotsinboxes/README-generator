@@ -49,41 +49,34 @@ function generateMD (data) {
     var license = data.license;
     var licenseToLowercase = data.license.toLowerCase();
     return `
-    # ${data.projectTitle}
+# ${data.projectTitle}
 
-    ## Project Description
-    ${data.projectDesc}
+## Project Description
+${data.projectDesc}
 
-    [![License: ${data.license}](${renderLicenseBadge(license)})](${renderLicenseLink(licenseToLowercase)})
+[![License: ${data.license}](${renderLicenseBadge(license)})](${renderLicenseLink(licenseToLowercase)})
 
 
-    ## Table of Contents
-    *[Installation][#installation]
-    *[Usage][#usage]
-    *[License][#license]
-    *[Contributing][#contributing]
-    *[Testing][#testing]
-    *[Questions][#questions]
+### **Table of Contents**
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [Questions](#questions)
 
-    ## Installation
-    ${data.installation}
 
-    ## Usage
-    ${data.usage}
+### Contributing
+${data.contributing}
 
-    ## License
-    ${data.license}
+### Testing
+${data.testing}
 
-    ## Contributing
-    ${data.contributing}
+### Questions
+Github Username: *${data.githubUserName}*
 
-    ## Testing
-    ${data.testing}
-
-    ## Questions
-    ${data.githubUserName}
-    For additional information, please reach out to me at ${data.email}
-    `
+For additional information, please reach out to me at ${data.email}
+`
 }
 
 module.exports = generateMD;
