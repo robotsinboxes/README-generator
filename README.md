@@ -10,5 +10,5 @@ personalized README.md file.
 <img width="1112" alt="Screen Shot 2021-04-15 at 6 55 08 PM" src="https://user-images.githubusercontent.com/69644797/114952605-39260d00-9e1c-11eb-9a00-78f43441667c.png">
 
 Link to video:
-file:///Users/lisagoodell/Downloads/19e51d53-0273-4641-b780-cef5d254bb26.webm
+https://drive.google.com/file/d/1vFp80Hj5HYADDS4o5EJ6s0uJXigGY-DV/view?usp=sharing
 
